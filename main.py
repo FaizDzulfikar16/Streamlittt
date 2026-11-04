@@ -34,7 +34,7 @@ st.markdown(
 	.notice { border-left: 4px solid var(--coral); background: #fff3ec; padding: 0.85rem 1rem; color: #553b31; border-radius: 0 4px 4px 0; }
 	.metric-label { color: var(--muted); font: 500 0.72rem 'DM Mono', monospace; text-transform: uppercase; }
 	div[data-testid="stMetric"] { background: #fff; border: 1px solid var(--line); border-radius: 4px; padding: 0.85rem 1rem; }
-	div[data-testid="stMetricLabel"], div[data-testid="stMetricLabel"] *,
+	[data-testid="stMetricLabel"], [data-testid="stMetricLabel"] *,
 	[data-testid="stWidgetLabel"], [data-testid="stWidgetLabel"] p { color: var(--muted) !important; font-size: 0.78rem; }
 	div[data-testid="stMetricValue"] { color: var(--ink); font-weight: 700; }
 	div[data-testid="stPlotlyChart"] { background: #fff; border: 1px solid var(--line); border-radius: 4px; padding: 0.25rem; }
