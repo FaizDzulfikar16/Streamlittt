@@ -1,0 +1,5 @@
+streamlit>=1.36
+xarray
+netCDF4
+plotly
+pandas
